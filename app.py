@@ -7,7 +7,7 @@ from statsmodels.tsa.seasonal import seasonal_decompose
 import matplotlib.pyplot as plt
 from sklearn.metrics import mean_squared_error
 
-data_path = r"C:\Users\chari\OneDrive\P587 DATASET.csv"
+data_path = r"P587 DATASET.csv"
 
 st.set_page_config(page_title="SARIMA Quick Deploy", layout="wide")
 
@@ -73,6 +73,7 @@ if st.button("Train SARIMA"):
        
 
         
+
 
 
 
